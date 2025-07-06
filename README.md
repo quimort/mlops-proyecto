@@ -59,3 +59,37 @@ This is ana analisis of data
 
 --------
 
+
+## 🧪 Requisitos e instalación
+
+Clona el repositorio y crea un entorno virtual:
+
+```bash
+git clone https://github.com/tu-usuario/mlops-proyecto.git
+cd mlops-proyecto
+
+
+pipenv install -dev
+
+pipenv shell
+
+
+# Inicializa DVC (solo la primera vez)
+dvc init
+
+# Agrega un archivo de datos al control de DVC
+dvc add [airline_data.csv](http://_vscodecontentref_/11)
+
+# Guarda los cambios en git
+git add data/raw/airline_data.csv.dvc .gitignore
+git commit -m "Track airline_data.csv with DVC"
+
+# Para recuperar datos versionados
+dvc pull
+
+
+# Ejecuta un experimento de entrenamiento
+python [entrenamiento.py](http://_vscodecontentref_/12)
+
+# Inicia la interfaz de usuario de MLflow para visualizar experimentos
+mlflow ui
