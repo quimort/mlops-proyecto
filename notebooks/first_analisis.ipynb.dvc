@@ -1,0 +1,5 @@
+outs:
+- md5: 260fea855b21eb4c081d44423c5ab7b7
+  size: 7856
+  hash: md5
+  path: first_analisis.ipynb
