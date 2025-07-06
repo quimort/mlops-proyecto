@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Quim/Documents/quim%20documents/Master/mlops-proyecto/mlruns/726182514906146730/896c64b1945640c4a4c3e1ed036d56fe/artifacts
+end_time: 1751810547130
+entry_point_name: ''
+experiment_id: '726182514906146730'
+lifecycle_stage: active
+run_id: 896c64b1945640c4a4c3e1ed036d56fe
+run_name: marvelous-perch-144
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751810547073
+status: 3
+tags: []
+user_id: Quim
