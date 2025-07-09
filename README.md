@@ -1,3 +1,10 @@
+# estudiantes entrega
+```
+Quim Ortuño
+Freddy Vargas
+Joaquim Balletbo
+```
+
 # mlops-proyecto
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
